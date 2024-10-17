@@ -39,4 +39,7 @@ body:
       label: Current vs Expected behavior
     validations:
       required: true
+  - type: textarea
+    attributes:
+      label: Additional Information
   
