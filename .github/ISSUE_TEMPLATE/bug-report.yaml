@@ -13,10 +13,10 @@ body:
     attributes:
       label: Severity
       options:
-        - Critical
-        - Major
-        - Moderate
         - Minor
+        - Moderate
+        - Major
+        - Critical
     validations:
       required: true
   - type: dropdown
