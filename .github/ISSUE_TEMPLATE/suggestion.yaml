@@ -1,0 +1,31 @@
+name: Bug Report
+description: Report unintended behavior, issues, or problems
+labels: [bug]
+body:
+  - type: checkboxes
+    attributes:
+      label: Checklist
+      description: "Please verify that all of the following are true:"
+      options:
+        - label: I have **checked both [open and closed issues](https://github.com/encythe/bg-issuetracker/issues?q=is:issue)** to ensure this hasn't already been suggested.
+        - label: I have thought **carefully** about my suggestion.
+        - label: I am certain this is a **suggestion**, not a bug report.
+    validations:
+      required: true
+  - type: dropdown
+    attributes:
+      label: Game
+      description: What game are you suggesting to?
+      options:
+        - Difficulty Upgrade Tree
+        - Not JJT Upgrade Tree
+        - Other; specify
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: Specify other [if selected]
+  - type: textarea
+    attributes:
+      label: Suggestion
+      description: What are you suggesting? Why should this be added?
