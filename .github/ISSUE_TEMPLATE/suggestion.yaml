@@ -29,3 +29,5 @@ body:
     attributes:
       label: Suggestion
       description: What are you suggesting? Why should this be added?
+    validations:
+      required: true
