@@ -7,7 +7,7 @@ body:
       label: Checklist
       options:
         - label: I have **checked both [open and closed issues](https://github.com/encythe/bg-issuetracker/issues?q=is:issue)** to ensure this bug hasn't already been reported.
-        - label: My server is on the latest version
+        - label: My server is on the **latest version**.
         - label: I am certain this is a **bug report**, not a suggestion.
   - type: textarea
     attributes:
