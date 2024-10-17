@@ -13,12 +13,15 @@ body:
     attributes:
       label: Game
       options:
-        - label: "Difficulty Upgrade Tree"
+        - Difficulty Upgrade Tree
           value: "dut"
-        - label: "Not JJT Upgrade Tree"
+          labels: [dut]
+        - Not JJT Upgrade Tree
           value: "njut"
-        - label: "Other; specify"
+          labels: [njut]
+        - Other; specify
           value: "other"
+          labels: [other?]
     validations:
       required: true
   - type: input
