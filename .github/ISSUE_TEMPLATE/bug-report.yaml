@@ -16,8 +16,8 @@ body:
         - label: Difficulty Upgrade Tree
         - label: Not JJT Upgrade Tree
         - label: Other; specify
-      validations:
-        required: true
+    validations:
+      required: true
   - type: input
     attributes:
       label: Specify other [if selected]
