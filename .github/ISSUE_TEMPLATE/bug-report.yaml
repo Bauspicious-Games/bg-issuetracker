@@ -7,7 +7,7 @@ body:
       label: Checklist
       description: "Please verify that all of the following are true:"
       options:
-        - label: I have **checked both [open and closed issues](https://github.com/encythe/bg-issuetracker/issues?q=is%3Aissue+label%3Abug)** to ensure this bug hasn't already been reported.
+        - label: I have **checked both [open and closed issues](https://github.com/Bauspicious-Games/bg-issuetracker/issues?q=is%3Aissue+label%3Abug)** to ensure this bug hasn't already been reported.
         - label: My server is on the **latest version**.
         - label: I am certain this is a **bug report**, not a suggestion.
   - type: dropdown
