@@ -17,6 +17,8 @@ body:
         - Major
         - Moderate
         - Minor
+    validations:
+      required: true
   - type: dropdown
     attributes:
       label: Game
@@ -29,8 +31,6 @@ body:
   - type: input
     attributes:
       label: Specify other [if selected]
-    validations:
-      required: true
   - type: textarea
     attributes:
       label: Reproduction Steps
