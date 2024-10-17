@@ -1,6 +1,6 @@
-name: Bug Report
-description: Report unintended behavior, issues, or problems
-labels: [bug]
+name: Suggestion
+description: Suggest a new addition to a game
+labels: [suggestion]
 body:
   - type: checkboxes
     attributes:
