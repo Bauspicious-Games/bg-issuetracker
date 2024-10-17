@@ -14,16 +14,29 @@ body:
       label: Game
       options:
         - Difficulty Upgrade Tree
-          labels: [dut]
         - Not JJT Upgrade Tree
-          labels: [njut]
         - Other; specify
-          labels: [other?]
     validations:
       required: true
   - type: input
     attributes:
       label: Specify other [if selected]
+  - type: dropdown
+    attributes:
+      label: Severity
+      options:
+        - Critical
+        - Major
+        - Moderate
+        - Minor
+    validations:
+      required: true
   - type: textarea
     attributes:
-      label: I am still writing this
+      label: Reproduction Steps
+  - type: textarea
+    attributes:
+      label: Current vs Expected behavior
+    validations:
+      required: true
+  
