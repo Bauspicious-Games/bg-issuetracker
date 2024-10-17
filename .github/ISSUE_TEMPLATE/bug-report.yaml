@@ -13,9 +13,9 @@ body:
     attributes:
       label: Game
       options:
-        - label: Difficulty Upgrade Tree
-        - label: Not JJT Upgrade Tree
-        - label: Other; specify
+        - label: "Difficulty Upgrade Tree"
+        - label: "Not JJT Upgrade Tree"
+        - label: "Other; specify"
     validations:
       required: true
   - type: input
