@@ -7,7 +7,7 @@ body:
       label: Checklist
       description: "Please verify that all of the following are true:"
       options:
-        - label: I have **checked both [open and closed issues](https://github.com/encythe/bg-issuetracker/issues?q=is:issue)** to ensure this hasn't already been suggested.
+        - label: I have **checked both [open and closed issues](https://github.com/encythe/bg-issuetracker/issues?q=is%3Aissue+label%3Asuggestion)** to ensure this hasn't already been suggested.
         - label: I have thought **carefully** about my suggestion.
         - label: I am certain this is a **suggestion**, not a bug report.
     validations:
