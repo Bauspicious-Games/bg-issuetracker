@@ -11,6 +11,14 @@ body:
         - label: I am certain this is a **bug report**, not a suggestion.
   - type: dropdown
     attributes:
+      label: Severity
+      options:
+        - Critical
+        - Major
+        - Moderate
+        - Minor
+  - type: dropdown
+    attributes:
       label: Game
       options:
         - Difficulty Upgrade Tree
@@ -21,14 +29,6 @@ body:
   - type: input
     attributes:
       label: Specify other [if selected]
-  - type: dropdown
-    attributes:
-      label: Severity
-      options:
-        - Critical
-        - Major
-        - Moderate
-        - Minor
     validations:
       required: true
   - type: textarea
