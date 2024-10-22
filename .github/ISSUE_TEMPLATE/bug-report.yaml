@@ -47,5 +47,5 @@ body:
   - type: textarea
     attributes:
       label: Additional Information
-      description: Additional information, like screenshots
+      description: Additional information, like screenshots or a traceback
   
